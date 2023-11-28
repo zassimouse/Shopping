@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <sql:setDataSource var="connection" driver="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost:3306/shopping" user="root" password="Guhan@2001"/>
+    <sql:setDataSource var="connection" driver="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost:3306/shopping" user="root" password="denis123"/>
 
     <c:set var="productID" scope="request" value='${param.productID}' />
 
